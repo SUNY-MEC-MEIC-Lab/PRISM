@@ -1,0 +1,5 @@
+open3d>=0.16.0
+numpy
+python-docx
+pandas
+scikit-image
