@@ -45,16 +45,3 @@ python PRISM.py --input path/to/input.ply --output path/to/output.ply --k 10
 | **Bin Capacity** | `-k` | `1` | Maximum number of points retained per unique color bin. Higher $k$ keeps more points. |
 | **Quantization** | `-q`, `--quantization` | `1.0` | Color quantization step size. Larger values merge similar colors (more compression). |
 | **No Chromaticity** | `--no_chromaticity` | `False` | If set, uses raw RGB values for binning. Default uses Chromaticity (normalized RGB) to be robust to illumination changes. |
-
-## Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-@inproceedings{lim2026prism,
-  title={PRISM: Color-Stratified Point Cloud Sampling},
-  author={Lim, Hansol and Im, Minhyeok and Choi, Jongseong Brad},
-  booktitle={Proceedings of the International Conference on Pattern Recognition (ICPR)},
-  year={2026}
-}
-```
