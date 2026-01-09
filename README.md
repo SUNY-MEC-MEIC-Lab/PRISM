@@ -6,7 +6,7 @@ This repository contains the official implementation of the paper **"PRISM: Colo
 
 ## Key Features
 
-- **Color-Guided Sampling**: Allocates sampling density proportional to chromatic diversity.
+- **Color-Stratified Sampling**: Allocates sampling density proportional to chromatic diversity.
 - **Redundancy Suppression**: Aggressively downsamples spatially large but photometrically simple regions (e.g., walls, roads).
 - **Feature Preservation**: Retains detailed structures like signage, vegetation, and architectural ornaments.
 - **Predictable Output**: Controls output size via a single intuitive capacity parameter ($k$).
